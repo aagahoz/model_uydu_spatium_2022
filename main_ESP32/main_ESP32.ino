@@ -6,10 +6,34 @@
 #include <Wire.h>
 #include "RTClib.h"
 
+String rtc_okuma(RTC_DS1307 *newRTC);
+void servo_kontrolu(bool durum, Servo *servo1, Servo *servo2);
+
 Servo myservo1;  
 Servo myservo2;
 
 RTC_DS1307 rtc;
+
+WiFiUDP udp;
+
+const String takim_no = "";
+int paket_number = 0;
+String gonderme_saati = ",,;,,";
+String basinc_gorev_yuku = "";
+String basinc_tasiyici = "";
+int yukseklik_gorev_yuku;
+int yukseklik_tasiyici;
+int irtifa_farki;
+String inis_hizi = "";
+String sicaklik = "";
+float pil_gerilimi;
+String GPS_gorev_yuku = "";
+String GPS_tasiyici = "";
+int uydu_statusu; //Beklemede, Yükselme, Model Uydu İniş, Ayrılma, Görev Yükü İniş, Kurtarma vs. gibi
+String pitch = "";
+String roll = "";
+String yaw = "";
+String video_aktarim_bilgisi = "";
 
 //const char * ssid = "AC-ESP32";
 //const char * pwd = "987654321";
@@ -21,19 +45,22 @@ const char * pwd = "team.spatium";
 
 const char * udpAddress = "192.168.31.132";
 const int udpPort = 44444;
-char komut_arrayi[4]; // 4 bitlik komut arrayi 0000 manuel Servo - motor tahrik - bos - bos
+char gelen_komut[5]; // 4 bitlik komut arrayi 0000 manuel Servo - motor tahrik - bos - bos
 
-String rtc_time = ",,;,,";
+char komut_durumu[5];
+
+bool telemetri_gonderilme_durum = false;
 
 bool servolar_acik_mi = true;
 
 bool rtc_find_state = false;
 bool rtc_running_state = false;
 
-WiFiUDP udp;
-
 void setup()
 {
+  strcpy(gelen_komut, "0000");
+  strcpy(komut_durumu, "0000");
+  
   Serial.begin(115200);
   
   WiFi.begin(ssid, pwd);
@@ -58,9 +85,8 @@ void setup()
 
 void loop()
 {
-  rtc_time = rtc_okuma(&rtc); //RTC Okuma
-  Serial.println(rtc_time);
-
+  gonderme_saati = rtc_okuma(&rtc); //RTC Okuma
+  Serial.println(gonderme_saati);
 
   // Telemetri paketi hazirlama
   char udp_payload[250];
@@ -77,25 +103,33 @@ void loop()
   udp.write((uint8_t *)udp_payload, sizePayload);  // WiFiUDP.write(buffer, size);
   Serial.print("Payload: ");
   Serial.println(sizePayload);
-  udp.endPacket(); // paketi gonderir, basarili ise 1, basarisiz ise 1 dondurur
+  telemetri_gonderilme_durum = udp.endPacket(); // paketi gonderir, basarili ise 1, basarisiz ise 1 dondurur
+  if (udp.endPacket() == 1)
+    Serial.println("--> UDP Paket Gonderildi");
+  else
+    Serial.println("--> UDP Paket Alinmadi");
+
   
   // Yer Istasyonundan komut alma 
   udp.parsePacket();  // gelen datayi okunabilir hale getirir, read fonks dan once kullanilmali
-  if(udp.read(komut_arrayi, 4) > 0)  // esp32 ye gelen datalari okur
+  if(udp.read(gelen_komut, 4) > 0)  // esp32 ye gelen datalari okur
   {
     Serial.print("Server to client ( Yer istasyonundan esp32`ye ) : ");
-    Serial.println(komut_arrayi);  // alinan komutlar bastirilir
-    
-    if (komut_arrayi[0] == '0')  // servo komut durumu
-    {
-      servolar_acik_mi = false;
-    }
-    if (komut_arrayi[0] == '1')
-    {
-      servolar_acik_mi = true;
-    }
+    Serial.println(gelen_komut);  // alinan komutlar bastirilir
+    strcpy(komut_durumu, gelen_komut);
   }
   
+  if (komut_durumu[0] == '0')  // servo komut durumu
+  {
+    servolar_acik_mi = false;
+  }
+  if (komut_durumu[0] == '1')
+  {
+    servolar_acik_mi = true;
+  }
+  
+  Serial.print("Komut Durumu: ");
+  Serial.println(komut_durumu);
   udp.flush(); // istemciye yazilmis ancak okunmamis datalari siler
 
   // alinan komut son durumuna gore servo acip kapatma 0000 - 0001
@@ -103,7 +137,8 @@ void loop()
 
   // char arrayini resetleme
   memset(udp_payload, 0, 120);
-  delay(1000);
+  
+  delay(100);
 }
 
 void servo_kontrolu(bool durum, Servo *servo1, Servo *servo2)
