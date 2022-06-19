@@ -8,6 +8,40 @@
  *  SD Card telemetri yazma   -
  *  Raspberry pi UART         -
  *  Arduino UART              ?
+
+ SD CARD PinOut   
+    Vcc         ->   5V
+    Ground      ->   Ground
+    MOSI        ->   23     
+    MISO        ->   19
+    CS          ->   5     
+    CLK         ->   18
+    
+ RTC PinOut
+    Vcc         ->   5V
+    Ground      ->   Ground
+    SDA          ->   21     
+    SCL          ->   22
+
+ Analog Pil Gerilimi PinOut
+    Analog Pin  ->  ?
+    GND         ->  Ground
+  
+ Servo1 PinOut
+    Vcc         ->   Regulator +
+    Ground      ->   Ground
+    PWM Sinyal  ->   12
+
+ Servo2 PinOut
+    Vcc         ->   Regulator +
+    Ground      ->   Ground
+    PWM Sinyal  ->   13
+  
+ Raspberry Pi PinOut
+
+    ??
+
+ 
  */
 
 #include <WiFi.h>
