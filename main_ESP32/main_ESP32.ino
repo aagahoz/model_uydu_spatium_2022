@@ -1,3 +1,15 @@
+/*
+ *  telemetri gonderimi       +
+ *  komut gonderimi           +
+ *  dosya aktarımı            -
+ *  servo motor kontrol       +
+ *  analog okuma              -
+ *  RTC okuma                 +
+ *  SD Card telemetri yazma   -
+ *  Raspberry pi UART         -
+ *  Arduino UART              ?
+ */
+
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
