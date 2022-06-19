@@ -2,6 +2,21 @@
  *  LoRa Receiver       -
  *  BMP280              +
  *  Raspberry Pi UART   -
+
+   LoRa UART Pinout
+    -----
+      
+   BMP280 PinOut   
+    Vcc         ->   3.3V
+    Ground      ->   Ground
+    SDA         ->   A4     
+    SCL         ->   A5
+    
+   Raspberry Pi PinOut
+
+    ??
+
+ 
  */
 
 #include <Wire.h>
