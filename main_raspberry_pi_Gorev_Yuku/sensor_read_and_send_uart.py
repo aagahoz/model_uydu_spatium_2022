@@ -1,36 +1,56 @@
 from dronekit import connect
 import serial
-
 import time
 
+pixhawk_connection_state = True
+esp32_connection_state = True
+
 # Connect to the Vehicle (in this case a UDP endpoint)
-vehicle = connect("	127.0.0.1:14550", wait_ready=True)
+try:
+    vehicle = connect("127.0.0.1:14550", wait_ready=True)
+except serial.serialutil.SerialException:
+    pixhawk_connection_state = False
+
 
 # seri portu acma
-ser = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
+try:
+    ser = serial.Serial('127.0.0.1:14550', 9600, timeout=1)
+    
+    # vehicle a baglanana kadar bekle
+    vehicle.wait_ready('autopilot_version') 
 
-# vehicle a baglanana kadar bekle
-vehicle.wait_ready('autopilot_version')  
+except serial.serialutil.SerialException:
+    esp32_connection_state = False
 
 payload = ""
 
 while True:
+    pitch = ""
+    roll = ""
+    yaw = ""
+    enlem = ""
+    boylam = ""
+    yukseklik = ""
     
-    # imu
-    pitch = vehicle.attitude.pitch
-    roll = vehicle.attitude.roll
-    yaw = vehicle.attitude.yaw
-    
-    # gps
-    enlem = vehicle.location.global_relative_frame.lat
-    boylam = vehicle.location.global_relative_frame.lon
-    yukseklik = vehicle.location.global_relative_frame.alt
+    if pixhawk_connection_state:
+        # imu
+        pitch = vehicle.attitude.pitch
+        roll = vehicle.attitude.roll
+        yaw = vehicle.attitude.yaw
+        
+        # gps
+        enlem = vehicle.location.global_relative_frame.lat
+        boylam = vehicle.location.global_relative_frame.lon
+        yukseklik = vehicle.location.global_relative_frame.alt
     
     # birlestirilmis
     payload = "<" + str(pitch) + "," + str(roll) + "," + str(yaw) + "," + str(enlem) + "," + str(boylam) + "," + str(yukseklik)  + ">"
     print(payload)
     
     # birlestirilmis veriyi uarta yazma
-    ser.write(payload)  # uarta yazma
+    if esp32_connection_state:
+        ser.write(payload)  # uarta yazma
+        print("USB Success")
     payload = "<,,,,,>"
     time.sleep(0.5)
+
