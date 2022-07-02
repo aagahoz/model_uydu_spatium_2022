@@ -7,14 +7,14 @@ esp32_connection_state = True
 
 # Connect to the Vehicle (in this case a UDP endpoint)
 try:
-    vehicle = connect("127.0.0.1:14550", wait_ready=True)
+    vehicle = connect("/dev/ttyACM0", wait_ready=True)
 except serial.serialutil.SerialException:
     pixhawk_connection_state = False
 
 
 # seri portu acma
 try:
-    ser = serial.Serial('127.0.0.1:14550', 9600, timeout=1)
+    ser = serial.Serial('/dev/serial0', 9600, timeout=1)
     
     # vehicle a baglanana kadar bekle
     vehicle.wait_ready('autopilot_version') 
