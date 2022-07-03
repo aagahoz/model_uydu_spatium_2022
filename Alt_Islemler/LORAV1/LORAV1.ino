@@ -14,11 +14,13 @@ SoftwareSerial portlora(10, 11);
 
 LoRa_E32 e32ttl(&portlora);
 
-typedef  struct {
-  int irtifa=20;
-  byte pitch;
-  byte roll;
-  byte yaw;
+typedef  struct 
+{
+  float tas_latitude = 1234.23;
+  float tas_longtitude = 4323.44;
+  float tas_gps_altitude = 1050.2;
+  float tas_pressure = 1023.4;
+  float tas_altitude = 1200;
 } Signal;
 
 Signal data;
@@ -34,25 +36,13 @@ void setup()
 
 void loop()
 {
-  portgps.listen(); 
-  if (gps.altitude.isValid()) {
-    Serial.print("GPS Roket irtifa: ");
-    Serial.println(19);
-    data.irtifa = 19;
-  }
-  else
-    Serial.println( "error");
 
-  smartDelay(1000);
-
-  if (millis() > 5000 && gps.charsProcessed() < 10)
-    Serial.println(F("No GPS data received: check wiring"));
 
   Serial.println();
 
   portlora.listen(); 
 
-  ResponseStatus rs = e32ttl.sendFixedMessage(0, 63, 23, &data, sizeof(Signal));
+  ResponseStatus rs = e32ttl.sendFixedMessage(0, 44, 23, &data, sizeof(Signal));
   Serial.println(rs.getResponseDescription());
 
 }
