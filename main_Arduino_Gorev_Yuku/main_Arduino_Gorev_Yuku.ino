@@ -12,7 +12,7 @@
     SDA         ->   A4     
     SCL         ->   A5
     
-   Raspberry Pi PinOut
+   ESP32 PinOut
 
     ??
 
@@ -22,11 +22,15 @@
 #include <Wire.h>
 #include <Adafruit_BMP280.h>
 
-String bmp_payload = "";
+Adafruit_BMP280 bmp; 
 
+String bmp_payload = "";
+String main_payload = "";
 
 void setup()
 {
+  Serial.begin(9600);
+  
   unsigned status;
   status = bmp.begin(0x76);
 }
@@ -40,21 +44,15 @@ void loop()
 
 
     main_payload = "";
-    Serial.flush();
 
+    delay(50);
+    Serial.flush();
 }
 
 String bmp_returner()
-{
-    String bmp_temprature = "";
-    String bmp_pressure = "";
-    String bmp_altitude = "";
+{    
     String payload = "";
-    
-    bmp_temprature = String(bmp.readTemperature());
-    bmp_pressure = String(bmp.readPressure());
-    bmp_altitude = String(bmp.readAltitude(1017.5));
-    payload = bmp_pressure + "," + bmp_temprature + "," + bmp_altitude;
+    payload = String(bmp.readTemperature()) + "," + String(bmp.readPressure()) + "," + String(bmp.readAltitude(1017.5));
     
 //    Serial.println(bmp_payload);
     return payload;
