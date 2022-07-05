@@ -17,8 +17,8 @@
  GPS PinOut  
     Vcc         ->   3.3V
     Ground      ->   Ground
-    Tx          ->   D4     
-    Rx          ->   D3
+    Tx          ->   D3     
+    Rx          ->   D4
 
 Lora PinOut
     Vcc         ->   5V
