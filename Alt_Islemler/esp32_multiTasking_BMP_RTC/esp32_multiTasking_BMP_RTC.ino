@@ -14,6 +14,20 @@
 //#include <WiFi.h>
 //#include <WiFiUdp.h>
 
+#include "LoRa_E32.h"
+#define RXD2 16
+#define TXD2 17
+LoRa_E32 e32ttl(&Serial2);
+typedef  struct 
+{
+  float tas_latitude;
+  float tas_longtitude;
+  float tas_gps_altitude;
+  float tas_pressure;
+  float tas_altitude;
+} Signal;
+Signal data;
+
 #include <Servo.h>
 
 Adafruit_BMP280 bmp;
@@ -22,8 +36,9 @@ RTC_DS1307 newRTC;
 Servo myservo1;  
 Servo myservo2;
 
-void TaskBlink( void *pvParameters );
-void TaskAnalogReadA3( void *pvParameters );
+void TaskRTC( void *pvParameters );
+void TaskBMP280( void *pvParameters );
+void TaskLoRa( void *pvParameters );
 
 bool rtc_find_state = false;
 bool rtc_running_state = false;
@@ -58,8 +73,13 @@ String p21_videoAktarimBilgisi = "";
 void setup() {
   
   Serial.begin(115200);
+  
   unsigned status;
   status = bmp.begin(0x76);
+  
+  e32ttl.begin();
+  delay(500);
+  
   rtc_find_state = newRTC.begin();
   if (!rtc_find_state) 
   {
@@ -92,7 +112,7 @@ void setup() {
     ,  ARDUINO_RUNNING_CORE);
 
   xTaskCreatePinnedToCore(
-    TaskBMP280
+    TaskLoRa
     ,  "TaskBMP"
     ,  4096  // Stack size
     ,  NULL
@@ -137,6 +157,28 @@ void TaskBMP280(void *pvParameters)
     p4_basinc1 = String(bmp.readPressure());
     p6_yukseklik1 = String(bmp.readAltitude(1017.5));
     Serial.println("BMP280--> " + p4_basinc1 + "," + p10_sicaklik + "," + p6_yukseklik1);
+    vTaskDelay(800);  
+  }
+}
+
+void TaskLoRa(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+     while (e32ttl.available()  > 1) 
+     {
+        ResponseStructContainer rsc = e32ttl.receiveMessage(sizeof(Signal));
+        data = *(Signal*) rsc.data;
+        rsc.close();
+        p5_basinc2 = data.tas_pressure;
+        p7_yukseklik2 = data.tas_altitude;
+        p13_gps2Latitude = data.tas_latitude;
+        p15_gps2Altitude = data.tas_gps_altitude;
+        p17_gps2Longtitude  = data.tas_longtitude;
+        Serial.println("LoRa--> " + p5_basinc2 + "," + p7_yukseklik2 + "," + p13_gps2Latitude + "," + p15_gps2Altitude + "," + p17_gps2Longtitude);
+    }
     vTaskDelay(800);  
   }
 }
