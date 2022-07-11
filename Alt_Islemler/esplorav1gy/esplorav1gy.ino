@@ -29,6 +29,13 @@ void loop() {
     ResponseStructContainer rsc = e32ttl.receiveMessage(sizeof(Signal));
     data = *(Signal*) rsc.data;
     rsc.close();
+    Serial.print(F("gelen gps latitude bilgisi: "));
+    Serial.println(data.tas_latitude);
+    Serial.print(F("gelen gps longtitude bilgisi: "));
+    Serial.println(data.tas_longtitude);
+    Serial.print(F("gelen gps yükseklik bilgisi: "));
+    Serial.println(data.tas_gps_altitude);
+
     Serial.print(F("gelen basınç bilgisi: "));
     Serial.println(data.tas_pressure);
     Serial.print(F("gelen yükseklik bilgisi: "));
