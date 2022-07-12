@@ -86,6 +86,12 @@ void TaskRTC( void *pvParameters );
 void TaskBMP280( void *pvParameters );
 void TaskLoRa( void *pvParameters );
 void TaskBatteryVoltage( void *pvParameters );
+void TaskRaspberryPiUART(void *pvParameters);
+void TaskServoControl(void *pvParameters);
+void TaskTelemetryCommunication(void *pvParameters);
+void TaskFileTransfer(void *pvParameters);
+void TaskTelemeryLogger(void *pvParameters);
+void TaskMotorControl(void *pvParameters);
 
 bool rtc_find_state = false;
 bool rtc_running_state = false;
@@ -152,7 +158,7 @@ void setup() {
 
   xTaskCreatePinnedToCore(
     TaskBMP280
-    ,  "TaskBMP"
+    ,  "TaskBMP280"
     ,  4096  // Stack size
     ,  NULL
     ,  2  // Priority
@@ -161,7 +167,7 @@ void setup() {
 
   xTaskCreatePinnedToCore(
     TaskLoRa
-    ,  "TaskBMP280"
+    ,  "TaskLoRa"
     ,  4096  // Stack size
     ,  NULL
     ,  2  // Priority
@@ -171,6 +177,60 @@ void setup() {
   xTaskCreatePinnedToCore(
     TaskBatteryVoltage
     ,  "TaskBatteryVoltage"
+    ,  4096  // Stack size
+    ,  NULL
+    ,  2  // Priority
+    ,  NULL 
+    ,  ARDUINO_RUNNING_CORE);
+  
+  xTaskCreatePinnedToCore(
+    TaskRaspberryPiUART
+    ,  "TaskRaspberryPiUART"
+    ,  4096  // Stack size
+    ,  NULL
+    ,  2  // Priority
+    ,  NULL 
+    ,  ARDUINO_RUNNING_CORE);
+
+  xTaskCreatePinnedToCore(
+    TaskServoControl
+    ,  "TaskServoControl"
+    ,  4096  // Stack size
+    ,  NULL
+    ,  2  // Priority
+    ,  NULL 
+    ,  ARDUINO_RUNNING_CORE);
+  
+  xTaskCreatePinnedToCore(
+    TaskTelemetryCommunication
+    ,  "TaskTelemetryCommunication"
+    ,  4096  // Stack size
+    ,  NULL
+    ,  2  // Priority
+    ,  NULL 
+    ,  ARDUINO_RUNNING_CORE);
+
+  xTaskCreatePinnedToCore(
+    TaskTelemeryLogger
+    ,  "TaskTelemeryLogger"
+    ,  4096  // Stack size
+    ,  NULL
+    ,  2  // Priority
+    ,  NULL 
+    ,  ARDUINO_RUNNING_CORE);
+  
+  xTaskCreatePinnedToCore(
+    TaskFileTransfer
+    ,  "TaskFileTransfer"
+    ,  4096  // Stack size
+    ,  NULL
+    ,  2  // Priority
+    ,  NULL 
+    ,  ARDUINO_RUNNING_CORE);
+
+  xTaskCreatePinnedToCore(
+    TaskMotorControl
+    ,  "TaskFileTransfer"
     ,  4096  // Stack size
     ,  NULL
     ,  2  // Priority
@@ -240,6 +300,72 @@ void TaskLoRa(void *pvParameters)
 }
 
 void TaskBatteryVoltage(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+
+    vTaskDelay(800);  
+  }
+}
+
+void TaskRaspberryPiUART(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+
+    vTaskDelay(800);  
+  }
+}
+
+void TaskServoControl(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+
+    vTaskDelay(800);  
+  }
+}
+
+void TaskMotorControl(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+
+    vTaskDelay(800);  
+  }
+}
+
+void TaskTelemetryCommunication(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+
+    vTaskDelay(800);  
+  }
+}
+
+void TaskFileTransfer(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+
+    vTaskDelay(800);  
+  }
+}
+
+void TaskTelemeryLogger(void *pvParameters) 
 {
   (void) pvParameters;
 
