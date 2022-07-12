@@ -1,0 +1,1617 @@
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\bin\x86\Debug\AForge.Imaging.dll
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\3.0\PlayerRecord33\Player\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\AForge.Imaging.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0 Development\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\AForge.Imaging.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\4.0 Development\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\AForge.Imaging.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\4.0\4.0 Development\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\AForge.Imaging.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\5.0\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\6.0\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\6.1\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\6.2\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\7.0 Zedgraph giriş\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\7.1\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\7.2\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\8.0\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\8.0\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\8.1 Wifi\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\8.2\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.0\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.1\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.2\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.3\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\9.4\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\10.0 Final\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\10.1\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\10.1 kartal\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\11.1\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\11.2\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\12.0\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.0\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.1\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.2\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\13.3\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\C#\Arsiv\13.3\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Uydu\13.3\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.4\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.5 - Kopya\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.7\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.8\Spatium\obj\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\Player.exe.config
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\Player.pdb
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\AForge.Math.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\EntityFramework.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\GMap.NET.Core.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Security.Principal.Windows.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\ZedGraph.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\AForge.Math.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\AForge.Video.VFW.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\EntityFramework.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Data.SQLite.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\System.Security.Principal.Windows.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\ZedGraph.xml
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\de\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\es\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\it\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\bin\x86\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Spatium.csprojAssemblyReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Spatium.csproj.ResolveComReference.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Player.MainForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Player.Properties.Resources.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Player.URLForm.resources
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Spatium.csproj.GenerateResource.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Spatium.csproj.CoreCompileInputs.cache
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Spatium.csproj.CopyComplete
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Player.exe
+C:\Users\Dogukan\Desktop\Yer İstasyonu\13.9\Spatium\obj\x86\Debug\Player.pdb
