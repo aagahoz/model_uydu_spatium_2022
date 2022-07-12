@@ -1,8 +1,8 @@
-/*
- *  telemetri gonderimi       -
- *  komut gonderimi           -
- *  dosya aktarımı            -
- *  servo motor kontrol       -
+/*          TASK DURUMLARI
+ *  Telemetri gonderimi       -
+ *  Komut gonderimi           -
+ *  Dosya aktarımı            -
+ *  Servo motor kontrol       -
  *  Analog Pil okuma          -
  *  RTC okuma                 +
  *  BMP280 okuma              +
@@ -21,11 +21,17 @@
  RTC PinOut
     Vcc         ->   5V
     Ground      ->   Ground
-    SDA          ->   21     
-    SCL          ->   22
+    SDA         ->   21     
+    SCL         ->   22
+
+ BMP280 PinOut
+    Vcc         ->   5V
+    Ground      ->   Ground
+    SDA         ->   21     
+    SCL         ->   22
     
  Analog Pil Gerilimi PinOut
-    Analog Pin  ->  ?
+    Analog Pin  ->  34
     GND         ->  Ground
   
  Servo1 PinOut
@@ -39,8 +45,30 @@
     PWM Sinyal  ->   13
   
  Raspberry Pi PinOut
-    ??
- 
+    Ground      ->  Ground
+    TX          ->  RX
+    RX          ->  TX
+
+ LoRa PinOut
+    5V          ->  5V
+    M0          ->  Ground
+    M1          ->  Ground
+    AUX         ->  Ground
+    Ground      ->  Ground
+    TX          ->  16
+    RX          ->  17
+
+  Fırçasız Motor1 PinOut
+    Ground      ->   Ground
+    PWM Sinyal  ->   25
+  
+ Fırçasız Motor2 PinOut
+    Ground      ->   Ground
+    PWM Sinyal  ->   26
+  
+ Fırçasız Motor3 PinOut
+    Ground      ->   Ground
+    PWM Sinyal  ->   27
  */
  
 #if CONFIG_FREERTOS_UNICORE
@@ -52,6 +80,17 @@
 #ifndef LED_BUILTIN
 #define LED_BUILTIN 13
 #endif
+
+//const char * ssid = "AC-ESP32";
+//const char * pwd = "987654321";
+
+const char * ssid = "SPATIUM";
+const char * pwd = "team.spatium";
+
+//const char * udpAddress = "192.168.4.24";
+const char * udpAddress = "192.168.31.132";
+const int udpPort = 44444;
+char gelen_komut[5]; // 4 bitlik komut arrayi 0000 manuel Servo - motor tahrik - bos - bos
 
 #include <Wire.h>
 #include <Adafruit_BMP280.h>
@@ -79,8 +118,8 @@ Signal data;
 Adafruit_BMP280 BMP280;
 RTC_DS1307 RTC;
 //WiFiUDP udp;
-Servo myservo1;  
-Servo myservo2;
+Servo servo1;  
+Servo servo2;
 
 void TaskRTC( void *pvParameters );
 void TaskBMP280( void *pvParameters );
@@ -90,11 +129,13 @@ void TaskRaspberryPiUART(void *pvParameters);
 void TaskServoControl(void *pvParameters);
 void TaskTelemetryCommunication(void *pvParameters);
 void TaskFileTransfer(void *pvParameters);
-void TaskTelemeryLogger(void *pvParameters);
+void TaskTelemeryLoggerSdCard(void *pvParameters);
 void TaskMotorControl(void *pvParameters);
 
 bool rtc_find_state = false;
 bool rtc_running_state = false;
+
+bool servolari_ac = true;
 
 ////////////////////////////////////////
 const String p1_takimNo = "389590";
@@ -119,14 +160,15 @@ String p19_pitch = "";
 String p20_roll = "";
 String p21_yaw = "";
 String p22_donusSayisi = "";
-String p21_videoAktarimBilgisi = "";
+String p23_videoAktarimBilgisi = "";
 ////////////////////////////////////////
-
-String telemetri_payload = "";
+String main_payload = "";
 
 void setup() {
   
   Serial.begin(115200);
+
+//  WiFi.begin(ssid, pwd);
   
   unsigned status;
   status = BMP280.begin(0x76);
@@ -211,8 +253,8 @@ void setup() {
     ,  ARDUINO_RUNNING_CORE);
 
   xTaskCreatePinnedToCore(
-    TaskTelemeryLogger
-    ,  "TaskTelemeryLogger"
+    TaskTelemeryLoggerSdCard
+    ,  "TaskTelemeryLoggerSdCard"
     ,  4096  // Stack size
     ,  NULL
     ,  2  // Priority
@@ -327,7 +369,17 @@ void TaskServoControl(void *pvParameters)
 
   for (;;)
   {
-
+    if (servolari_ac == true)     // ACILAR AYARLANACAK
+    {
+      servo1.write(0);
+      servo2.write(0);
+    }
+  
+    else if (servolari_ac == false)
+    {
+      servo1.write(90);
+      servo2.write(90);
+    }
     vTaskDelay(800);  
   }
 }
@@ -349,7 +401,54 @@ void TaskTelemetryCommunication(void *pvParameters)
 
   for (;;)
   {
-
+    /*
+    // Telemetri paketi hazirlama
+    char udp_payload[250];
+    String datalar = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,258,40.806298,29.355541,2564,1,10,20,5,5,EVET";
+    datalar.toCharArray(udp_payload, 250);
+    int sizePayload = 0;
+    for (int i=0; udp_payload[i] != '\0'; i++) // olusan telemetri dizisinin boyutunu hesaplar
+    {
+      sizePayload += 1;
+    }
+  
+    // Yer Istasyonuna veri gonderme
+    udp.beginPacket(udpAddress, udpPort);  // WiFiUDP.beginPacket(hostIp, port);
+    udp.write((uint8_t *)udp_payload, sizePayload);  // WiFiUDP.write(buffer, size);
+    Serial.print("Payload: ");
+    Serial.println(sizePayload);
+    telemetri_gonderilme_durum = udp.endPacket(); // paketi gonderir, basarili ise 1, basarisiz ise 1 dondurur
+    if (udp.endPacket() == 1)
+      Serial.println("--> UDP Paket Gonderildi");
+    else
+      Serial.println("--> UDP Paket Alinmadi");
+  
+    
+    // Yer Istasyonundan komut alma 
+    udp.parsePacket();  // gelen datayi okunabilir hale getirir, read fonks dan once kullanilmali
+    if(udp.read(gelen_komut, 4) > 0)  // esp32 ye gelen datalari okur
+    {
+      Serial.print("Server to client ( Yer istasyonundan esp32`ye ) : ");
+      Serial.println(gelen_komut);  // alinan komutlar bastirilir
+      strcpy(komut_durumu, gelen_komut);
+    }
+    
+    if (komut_durumu[0] == '0')  // servo komut durumu
+    {
+      servolar_acik_mi = false;
+    }
+    if (komut_durumu[0] == '1')
+    {
+      servolar_acik_mi = true;
+    }
+    
+    Serial.print("Komut Durumu: ");
+    Serial.println(komut_durumu);
+    udp.flush(); // istemciye yazilmis ancak okunmamis datalari siler
+    
+    // char arrayini resetleme
+    memset(udp_payload, 0, 120);
+    */
     vTaskDelay(800);  
   }
 }
@@ -365,12 +464,23 @@ void TaskFileTransfer(void *pvParameters)
   }
 }
 
-void TaskTelemeryLogger(void *pvParameters) 
+void TaskTelemeryLoggerSdCard(void *pvParameters) 
 {
   (void) pvParameters;
 
   for (;;)
   {
+    main_payload = p1_takimNo + "," + p2_paketNumarasi
+    + "," + p3_gondermeSaati + "," + p4_basinc1 + "," + p5_basinc2
+    + "," + p6_yukseklik1 + "," + p7_yukseklik2 + "," + p8_irtifaFarki
+    + "," + p9_inisHizi + "," + p10_sicaklik + "," + p11_pilGerilimi
+    + "," + p12_gps1Latitude + "," + p13_gps2Latitude
+    + "," + p14_gps1Altitude + "," + p15_gps2Altitude
+    + "," + p16_gps1Longtitude + "," + p17_gps2Longtitude
+    + "," + p18_uyduStatusu + "," + p19_pitch + "," + p20_roll
+    + "," + p21_yaw + "," + p22_donusSayisi + "," + p23_videoAktarimBilgisi;
+    Serial.print("main_payload > ");
+    Serial.println(main_payload);
 
     vTaskDelay(800);  
   }
