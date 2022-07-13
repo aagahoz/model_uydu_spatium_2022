@@ -6,8 +6,8 @@
  *  Analog Pil okuma          -
  *  RTC okuma                 +
  *  BMP280 okuma              +
- *  SD Card telemetri yazma   -
- *  Raspberry pi UART         -
+ *  SD Card telemetri yazma   +
+ *  Raspberry pi UART         +
  *  LoRa UART                 +
  
  SD CARD PinOut   
