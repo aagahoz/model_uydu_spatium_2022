@@ -92,6 +92,25 @@ const char * udpAddress = "192.168.31.132";
 const int udpPort = 44444;
 char gelen_komut[5]; // 4 bitlik komut arrayi 0000 manuel Servo - motor tahrik - bos - bos
 
+#include <HardwareSerial.h>
+HardwareSerial SerialPort(1);  //if using UART1
+const byte NumChars = 85;
+char ReceivedChars[NumChars];
+char TempChars[NumChars];   
+char MessageFromPC[NumChars] = {0};
+boolean NewData = false;
+typedef struct
+{
+    double enlem = 0;
+    double boylam = 0;
+    double yukseklik = 0;
+    double hiz = 0;
+    double pitch = 0;
+    double roll = 0;
+    double yaw = 0;
+}Typedef_RasPiData;
+Typedef_RasPiData Raspi;
+
 #include <Wire.h>
 #include <Adafruit_BMP280.h>
 #include "RTClib.h"
@@ -159,15 +178,15 @@ String p18_uyduStatusu = "";
 String p19_pitch = "";
 String p20_roll = "";
 String p21_yaw = "";
-String p22_donusSayisi = "";
-String p23_videoAktarimBilgisi = "";
+String p22_donusSayisi = "00";
+String p23_videoAktarimBilgisi = "HAYIR";
 ////////////////////////////////////////
 String main_payload = "";
 
 void setup() {
   
   Serial.begin(115200);
-
+  SerialPort.begin(9600, SERIAL_8N1, 4, 2);
 //  WiFi.begin(ssid, pwd);
   
   unsigned status;
@@ -358,7 +377,82 @@ void TaskRaspberryPiUART(void *pvParameters)
 
   for (;;)
   {
+    static boolean RecvInProgress = false;
+    static byte ndx = 0;      // index
+    char StartMarker = '<';
+    char EndMarker = '>';
+    char rc;          // received data
 
+    while (SerialPort.available() > 0 && NewData == false)
+    {
+        rc = SerialPort.read();               // test for received data
+
+        if (RecvInProgress == true)
+        {         // found some!!
+            if (rc != EndMarker)          // <> end marker
+            {
+                ReceivedChars[ndx] = rc;  // 1st array position=data
+                ndx++;                    // next index 
+                if (ndx >= NumChars)      // if index>= number of chars
+                { 
+                    ndx = NumChars - 1;   // index -1
+                }
+            }
+            else                          // end marker found
+            {
+                ReceivedChars[ndx] = '\0'; // terminate the string  
+                RecvInProgress = false;
+                ndx = 0;                  // reset index
+                NewData = true;           // new data received flag
+            }
+        }
+
+        else if (rc == StartMarker)       // signal start of new data
+        {
+        RecvInProgress = true;
+        }
+    }
+    if (NewData == true)                  // input received
+    {
+        strcpy(TempChars, ReceivedChars); // this temporary copy is necessary to protect the original data
+                                          // because strtok() used in parseData() replaces the commas with \0
+        
+        char * StrTokIndx;                    // this is used by strtok() as an index
+    
+        StrTokIndx = strtok(TempChars,",");   // get the first control word
+        Raspi.enlem = atof(StrTokIndx);    // convert this part to the first integer
+    
+        StrTokIndx = strtok(NULL, ",");       // this continues after 2nd ',' in the previous call
+        Raspi.boylam = atof(StrTokIndx);         // convert this part to the first integer
+    
+        StrTokIndx = strtok(NULL, ",");
+        Raspi.yukseklik = atof(StrTokIndx);    // last integer
+            
+        StrTokIndx = strtok(NULL, ",");       // this continues after 1st ',' in the previous call
+        Raspi.hiz = atof(StrTokIndx);    // convert this part to the first integer
+    
+        StrTokIndx = strtok(NULL, ",");       // this continues after 2nd ',' in the previous call
+        Raspi.pitch = atof(StrTokIndx);         // convert this part to the first integer
+    
+        StrTokIndx = strtok(NULL, ",");
+        Raspi.roll = atof(StrTokIndx);    // last integer
+    
+        StrTokIndx = strtok(NULL, ",");
+        Raspi.yaw = atof(StrTokIndx);    // last integer
+        
+        p9_inisHizi = Raspi.hiz;
+        p12_gps1Latitude = Raspi.enlem;
+        p14_gps1Altitude = Raspi.yukseklik;
+        p16_gps1Longtitude = Raspi.boylam;
+        p19_pitch = Raspi.pitch;
+        p20_roll = Raspi.roll;
+        p21_yaw = Raspi.yaw;   
+        
+        NewData = false;                  // reset new data
+    }
+    Serial.print("Raspi--> ");
+    Serial.println(ReceivedChars);
+    
     vTaskDelay(800);  
   }
 }
@@ -479,7 +573,7 @@ void TaskTelemeryLoggerSdCard(void *pvParameters)
     + "," + p16_gps1Longtitude + "," + p17_gps2Longtitude
     + "," + p18_uyduStatusu + "," + p19_pitch + "," + p20_roll
     + "," + p21_yaw + "," + p22_donusSayisi + "," + p23_videoAktarimBilgisi;
-    Serial.print("main_payload > ");
+    Serial.print("main_payload---> ");
     Serial.println(main_payload);
 
     vTaskDelay(800);  
