@@ -1,13 +1,13 @@
 /*          TASK DURUMLARI
- *  Telemetri gonderimi       -
+ *  Telemetri gonderimi       +
  *  Komut gonderimi           -
  *  Dosya aktarımı            -
- *  Servo motor kontrol       -
+ *  Servo motor kontrol       +
  *  Analog Pil okuma          -
  *  RTC okuma                 +
  *  BMP280 okuma              +
- *  SD Card telemetri yazma   -
- *  Raspberry pi UART         -
+ *  SD Card telemetri yazma   +
+ *  Raspberry pi UART         +
  *  LoRa UART                 +
  
  SD CARD PinOut   
@@ -89,6 +89,9 @@ WiFiUDP udp;
 const char * udpAddress = "192.168.31.132";
 const int udpPort = 44444;
 char gelen_komut[5]; // 4 bitlik komut arrayi 0000 ( manuel Servo - motor tahrik - bos - bos )
+char komut_durumu[5];
+bool servolar_acik_mi = true;
+
 bool isWifiConnected = false;
 bool telemetri_gonderilme_durum = false;
 #define WIFI_TIMEOUT_MS 2000 // 20 second WiFi connection timeout
@@ -155,6 +158,8 @@ void TaskTelemetryCommunication(void *pvParameters);
 void TaskFileTransfer(void *pvParameters);
 void TaskTelemeryLoggerSdCard(void *pvParameters);
 void TaskMotorControl(void *pvParameters);
+void TaskKomutReceive(void *pvParameters); 
+void TaskServoMotorControl(void *pvParameters);
 
 bool rtc_find_state = false;
 bool rtc_running_state = false;
@@ -193,6 +198,9 @@ void setup() {
   Serial.begin(115200);
   SerialPort.begin(9600, SERIAL_8N1, 4, 2);
 //  WiFi.begin(ssid, pwd);
+
+  servo1.attach(12);
+  servo2.attach(13);
   
   unsigned status;
   status = BMP280.begin(0x76);
@@ -289,8 +297,8 @@ void setup() {
     ,  ARDUINO_RUNNING_CORE);
 
   xTaskCreatePinnedToCore(
-    TaskServoControl
-    ,  "TaskServoControl"
+    TaskKomutReceive
+    ,  "TaskKomutReceive"
     ,  4096  // Stack size
     ,  NULL
     ,  2  // Priority
@@ -336,8 +344,8 @@ void setup() {
     ,  ARDUINO_RUNNING_CORE);
 
   xTaskCreatePinnedToCore(
-    TaskMotorControl
-    ,  "TaskFileTransfer"
+    TaskServoMotorControl
+    ,  "TaskServoMotorControl"
     ,  4096  // Stack size
     ,  NULL
     ,  2  // Priority
@@ -503,34 +511,53 @@ void TaskRaspberryPiUART(void *pvParameters)
   }
 }
 
-void TaskServoControl(void *pvParameters) 
+void TaskKomutReceive(void *pvParameters) 
 {
   (void) pvParameters;
 
   for (;;)
   {
-    if (servolari_ac == true)     // ACILAR AYARLANACAK
+    // Yer Istasyonundan komut alma 
+    udp.parsePacket();  // gelen datayi okunabilir hale getirir, read fonks dan once kullanilmali
+    if(udp.read(gelen_komut, 4) > 0)  // esp32 ye gelen datalari okur
+    {
+      Serial.print("Server to client ( Yer istasyonundan esp32`ye ) : ");
+      Serial.println(gelen_komut);  // alinan komutlar bastirilir
+      strcpy(komut_durumu, gelen_komut);
+    }
+    
+    if (komut_durumu[0] == '0')  // servo komut durumu
+    {
+      servolar_acik_mi = false;
+    }
+    else if (komut_durumu[0] == '1')
+    {
+      servolar_acik_mi = true;
+    }
+    
+    Serial.print("Komut Durumu: ");
+    Serial.println(komut_durumu);
+    vTaskDelay(800);  
+  }
+}
+
+void TaskServoMotorControl(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+    if (servolar_acik_mi == true)
     {
       servo1.write(0);
       servo2.write(0);
     }
   
-    else if (servolari_ac == false)
+    else if (servolar_acik_mi == false)
     {
       servo1.write(90);
       servo2.write(90);
     }
-    vTaskDelay(800);  
-  }
-}
-
-void TaskMotorControl(void *pvParameters) 
-{
-  (void) pvParameters;
-
-  for (;;)
-  {
-
     vTaskDelay(800);  
   }
 }
