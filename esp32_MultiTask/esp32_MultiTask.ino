@@ -6,8 +6,8 @@
  *  Analog Pil okuma          -
  *  RTC okuma                 +
  *  BMP280 okuma              +
- *  SD Card telemetri yazma   +
- *  Raspberry pi UART         +
+ *  SD Card telemetri yazma   -
+ *  Raspberry pi UART         -
  *  LoRa UART                 +
  
  SD CARD PinOut   
@@ -58,7 +58,7 @@
     TX          ->  16
     RX          ->  17
 
-  Fırçasız Motor1 PinOut
+ Fırçasız Motor1 PinOut
     Ground      ->   Ground
     PWM Sinyal  ->   25
   
@@ -81,16 +81,18 @@
 #define LED_BUILTIN 13
 #endif
 
-//const char * ssid = "AC-ESP32";
-//const char * pwd = "987654321";
-
-const char * ssid = "SPATIUM";
-const char * pwd = "team.spatium";
-
-//const char * udpAddress = "192.168.4.24";
+#include <WiFi.h>
+#include <WiFiUdp.h>
+WiFiUDP udp;
+#define WIFI_NETWORK "SPATIUM"
+#define WIFI_PASSWORD "team.spatium"
 const char * udpAddress = "192.168.31.132";
 const int udpPort = 44444;
-char gelen_komut[5]; // 4 bitlik komut arrayi 0000 manuel Servo - motor tahrik - bos - bos
+char gelen_komut[5]; // 4 bitlik komut arrayi 0000 ( manuel Servo - motor tahrik - bos - bos )
+bool isWifiConnected = false;
+bool telemetri_gonderilme_durum = false;
+#define WIFI_TIMEOUT_MS 2000 // 20 second WiFi connection timeout
+#define WIFI_RECOVER_TIME_MS 3000 // Wait 30 seconds after a failed connection attempt
 
 #include <HardwareSerial.h>
 HardwareSerial SerialPort(1);  //if using UART1
@@ -114,9 +116,6 @@ Typedef_RasPiData Raspi;
 #include <Wire.h>
 #include <Adafruit_BMP280.h>
 #include "RTClib.h"
-
-//#include <WiFi.h>
-//#include <WiFiUdp.h>
 
 #include "LoRa_E32.h"
 #define RXD2 16
@@ -142,7 +141,6 @@ Signal data;
 
 Adafruit_BMP280 BMP280;
 RTC_DS1307 RTC;
-//WiFiUDP udp;
 Servo servo1;  
 Servo servo2;
 
@@ -152,6 +150,7 @@ void TaskLoRa( void *pvParameters );
 void TaskBatteryVoltage( void *pvParameters );
 void TaskRaspberryPiUART(void *pvParameters);
 void TaskServoControl(void *pvParameters);
+void keepWiFiAlive(void * parameter);
 void TaskTelemetryCommunication(void *pvParameters);
 void TaskFileTransfer(void *pvParameters);
 void TaskTelemeryLoggerSdCard(void *pvParameters);
@@ -297,6 +296,17 @@ void setup() {
     ,  2  // Priority
     ,  NULL 
     ,  ARDUINO_RUNNING_CORE);
+
+
+  xTaskCreatePinnedToCore(
+      keepWiFiAlive,
+      "keepWiFiAlive",  // Task name
+      5000,             // Stack size (bytes)
+      NULL,             // Parameter
+      2,                // Task priority
+      NULL,             // Task handle
+      ARDUINO_RUNNING_CORE
+    );
   
   xTaskCreatePinnedToCore(
     TaskTelemetryCommunication
@@ -525,61 +535,79 @@ void TaskMotorControl(void *pvParameters)
   }
 }
 
+void keepWiFiAlive(void * parameter){
+    for(;;){
+        if(WiFi.status() == WL_CONNECTED){
+            isWifiConnected = true;
+            vTaskDelay(3000 / portTICK_PERIOD_MS);
+            continue;
+        }
+
+        Serial.println("[WIFI] Connecting");
+        WiFi.mode(WIFI_STA);
+        WiFi.begin(WIFI_NETWORK, WIFI_PASSWORD);
+
+        unsigned long startAttemptTime = millis();
+
+        // Keep looping while we're not connected and haven't reached the timeout
+        while (WiFi.status() != WL_CONNECTED && 
+                millis() - startAttemptTime < WIFI_TIMEOUT_MS){}
+
+        // When we couldn't make a WiFi connection (or the timeout expired)
+      // sleep for a while and then retry.
+        if(WiFi.status() != WL_CONNECTED){
+            Serial.println("[WIFI] FAILED");
+            vTaskDelay(WIFI_RECOVER_TIME_MS / portTICK_PERIOD_MS);
+        continue;
+        }
+
+        Serial.print("Wifi Connected IP: ");
+        Serial.println(WiFi.localIP());
+    }
+}
+
 void TaskTelemetryCommunication(void *pvParameters) 
 {
   (void) pvParameters;
 
   for (;;)
   {
-    /*
-    // Telemetri paketi hazirlama
-    char udp_payload[250];
-    String datalar = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,258,40.806298,29.355541,2564,1,10,20,5,5,EVET";
-    datalar.toCharArray(udp_payload, 250);
-    int sizePayload = 0;
-    for (int i=0; udp_payload[i] != '\0'; i++) // olusan telemetri dizisinin boyutunu hesaplar
-    {
-      sizePayload += 1;
-    }
-  
-    // Yer Istasyonuna veri gonderme
-    udp.beginPacket(udpAddress, udpPort);  // WiFiUDP.beginPacket(hostIp, port);
-    udp.write((uint8_t *)udp_payload, sizePayload);  // WiFiUDP.write(buffer, size);
-    Serial.print("Payload: ");
-    Serial.println(sizePayload);
-    telemetri_gonderilme_durum = udp.endPacket(); // paketi gonderir, basarili ise 1, basarisiz ise 1 dondurur
-    if (udp.endPacket() == 1)
-      Serial.println("--> UDP Paket Gonderildi");
-    else
-      Serial.println("--> UDP Paket Alinmadi");
-  
-    
-    // Yer Istasyonundan komut alma 
-    udp.parsePacket();  // gelen datayi okunabilir hale getirir, read fonks dan once kullanilmali
-    if(udp.read(gelen_komut, 4) > 0)  // esp32 ye gelen datalari okur
-    {
-      Serial.print("Server to client ( Yer istasyonundan esp32`ye ) : ");
-      Serial.println(gelen_komut);  // alinan komutlar bastirilir
-      strcpy(komut_durumu, gelen_komut);
-    }
-    
-    if (komut_durumu[0] == '0')  // servo komut durumu
-    {
-      servolar_acik_mi = false;
-    }
-    if (komut_durumu[0] == '1')
-    {
-      servolar_acik_mi = true;
-    }
-    
-    Serial.print("Komut Durumu: ");
-    Serial.println(komut_durumu);
-    udp.flush(); // istemciye yazilmis ancak okunmamis datalari siler
-    
-    // char arrayini resetleme
-    memset(udp_payload, 0, 120);
-    */
-    vTaskDelay(800);  
+    if (isWifiConnected == true)
+      {
+        Serial.println("Wifi is Alive");
+
+        // Telemetri paketi hazirlama
+        char udp_payload[250];
+       // String datalar = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,258,40.806298,29.355541,2564,1,10,20,5,5,EVET";        main_payload.toCharArray(udp_payload, 250);
+        main_payload.toCharArray(udp_payload, 250);
+        int sizePayload = 0;
+        for (int i=0; udp_payload[i] != '\0'; i++) // olusan telemetri dizisinin boyutunu hesaplar
+        {
+          sizePayload += 1;
+        }
+      
+        // Yer Istasyonuna veri gonderme
+        udp.beginPacket(udpAddress, udpPort);  // WiFiUDP.beginPacket(hostIp, port);
+        udp.write((uint8_t *)udp_payload, sizePayload);  // WiFiUDP.write(buffer, size);
+        Serial.print("Payload: ");
+        Serial.println(sizePayload);
+        telemetri_gonderilme_durum = udp.endPacket(); // paketi gonderir, basarili ise 1, basarisiz ise 1 dondurur
+        if (udp.endPacket() == 1)
+          Serial.println("--> UDP Paket Gonderildi");
+        else
+          Serial.println("--> UDP Paket Alinmadi");
+
+
+
+        udp.flush(); // istemciye yazilmis ancak okunmamis datalari siler
+        memset(udp_payload, 0, 120);
+      }
+      else
+      {
+        Serial.println("Wifi is NOT Alive");
+      }
+      
+      vTaskDelay(800);  
   }
 }
 
