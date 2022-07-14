@@ -1,8 +1,8 @@
 /*          TASK DURUMLARI
  *  Telemetri gonderimi       +
- *  Komut gonderimi           -
+ *  Manuel Tahrik             +
  *  Dosya aktarımı            -
- *  Servo motor kontrol       +
+ *  Manuel Ayrilma            +
  *  Analog Pil okuma          -
  *  RTC okuma                 +
  *  BMP280 okuma              +
@@ -147,6 +147,14 @@ RTC_DS1307 RTC;
 Servo servo1;  
 Servo servo2;
 
+byte servoPin1 = 25;
+byte servoPin2 = 26;
+byte servoPin3 = 27;
+Servo esc1;
+Servo esc2;
+Servo esc3;
+bool manuel_tahrik_aktif = false;
+
 void TaskRTC( void *pvParameters );
 void TaskBMP280( void *pvParameters );
 void TaskLoRa( void *pvParameters );
@@ -160,12 +168,12 @@ void TaskTelemeryLoggerSdCard(void *pvParameters);
 void TaskMotorControl(void *pvParameters);
 void TaskKomutReceive(void *pvParameters); 
 void TaskServoMotorControl(void *pvParameters);
+void TaskMotorControl(void *pvParameters);
 
 bool rtc_find_state = false;
 bool rtc_running_state = false;
 
 bool servolari_ac = true;
-
 ////////////////////////////////////////
 const String p1_takimNo = "389590";
 String p2_paketNumarasi = "0";
@@ -201,6 +209,11 @@ void setup() {
 
   servo1.attach(12);
   servo2.attach(13);
+
+  esc1.attach(servoPin1);
+  esc2.attach(servoPin2);
+  esc3.attach(servoPin3);
+  delay(3000); 
   
   unsigned status;
   status = BMP280.begin(0x76);
@@ -346,6 +359,15 @@ void setup() {
   xTaskCreatePinnedToCore(
     TaskServoMotorControl
     ,  "TaskServoMotorControl"
+    ,  4096  // Stack size
+    ,  NULL
+    ,  2  // Priority
+    ,  NULL 
+    ,  ARDUINO_RUNNING_CORE);
+
+  xTaskCreatePinnedToCore(
+    TaskMotorControl
+    ,  "TaskMotorControl"
     ,  4096  // Stack size
     ,  NULL
     ,  2  // Priority
@@ -534,6 +556,15 @@ void TaskKomutReceive(void *pvParameters)
     {
       servolar_acik_mi = true;
     }
+
+    if (komut_durumu[1] == '0')  // servo komut durumu
+    {
+      manuel_tahrik_aktif = false;
+    }
+    else if (komut_durumu[1] == '1')
+    {
+      manuel_tahrik_aktif = true;
+    }
     
     Serial.print("Komut Durumu: ");
     Serial.println(komut_durumu);
@@ -558,6 +589,30 @@ void TaskServoMotorControl(void *pvParameters)
       servo1.write(90);
       servo2.write(90);
     }
+    vTaskDelay(800);  
+  }
+}
+
+void TaskMotorControl(void *pvParameters) 
+{
+  (void) pvParameters;
+
+  for (;;)
+  {
+    if (manuel_tahrik_aktif == true)
+    {
+      esc1.writeMicroseconds(1500); // Send signal to ESC.
+      esc2.writeMicroseconds(1500); // Send signal to ESC.
+      esc3.writeMicroseconds(1500); // Send signal to ESC.
+      vTaskDelay(8000);
+      manuel_tahrik_aktif = false;
+      komut_durumu[1] = '0';
+    }
+
+    esc1.writeMicroseconds(1000); // Send signal to ESC.
+    esc2.writeMicroseconds(1000); // Send signal to ESC.
+    esc3.writeMicroseconds(1000); // Send signal to ESC.
+  
     vTaskDelay(800);  
   }
 }
@@ -623,9 +678,6 @@ void TaskTelemetryCommunication(void *pvParameters)
           Serial.println("--> UDP Paket Gonderildi");
         else
           Serial.println("--> UDP Paket Alinmadi");
-
-
-
         udp.flush(); // istemciye yazilmis ancak okunmamis datalari siler
         memset(udp_payload, 0, 120);
       }
@@ -633,7 +685,6 @@ void TaskTelemetryCommunication(void *pvParameters)
       {
         Serial.println("Wifi is NOT Alive");
       }
-      
       vTaskDelay(800);  
   }
 }
