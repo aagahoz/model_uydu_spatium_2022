@@ -86,8 +86,8 @@
 WiFiUDP udp;
 #define WIFI_NETWORK "SPATIUM"
 #define WIFI_PASSWORD "team.spatium"
-const char * udpAddress = "192.168.31.132";
-const int udpPort = 44444;
+const char * udpAddress = "192.168.";
+const int udpPort = 52000;
 char gelen_komut[5]; // 4 bitlik komut arrayi 0000 ( manuel Servo - motor tahrik - bos - bos )
 char komut_durumu[5];
 bool servolar_acik_mi = true;
@@ -173,6 +173,10 @@ void TaskMotorControl(void *pvParameters);
 bool rtc_find_state = false;
 bool rtc_running_state = false;
 
+bool is_sd_card_mounted = true;
+bool is_sd_card_attached = true;
+bool is_sd_card_initialize = true;
+
 bool servolari_ac = true;
 ////////////////////////////////////////
 const String p1_takimNo = "389590";
@@ -237,30 +241,41 @@ void setup() {
   SD.begin(SD_CS);  
   if(!SD.begin(SD_CS)) {
     Serial.println("Card Mount Failed");
-    return;
+    is_sd_card_mounted = false;
+    is_sd_card_attached = false;
+    is_sd_card_initialize = false;
   }
-  uint8_t cardType = SD.cardType();
-  if(cardType == CARD_NONE) {
-    Serial.println("No SD card attached");
-    return;
+  if (is_sd_card_mounted == true)
+  {
+    uint8_t cardType = SD.cardType();
+    if(cardType == CARD_NONE) {
+      Serial.println("No SD card attached");
+      is_sd_card_attached = false;
+      is_sd_card_initialize = false;
+    }
+    Serial.println("Initializing SD card...");
+    if (!SD.begin(SD_CS)) {
+      Serial.println("ERROR - SD card initialization failed!");
+      is_sd_card_initialize = false;    // init failed
   }
-  Serial.println("Initializing SD card...");
-  if (!SD.begin(SD_CS)) {
-    Serial.println("ERROR - SD card initialization failed!");
-    return;    // init failed
+  
   }
   // If the data.txt file doesn't exist
   // Create a file on the SD card and write the data labels
-  File file = SD.open("/data.txt");
-  if(!file) {
-    Serial.println("File doens't exist");
-    Serial.println("Creating file...");
-    writeFile(SD, "/data.txt", "DATALAR \r\n");
+  if (is_sd_card_initialize == true)
+  {
+    File file = SD.open("/data.txt");
+    if(!file) {
+      Serial.println("File doens't exist");
+      Serial.println("Creating file...");
+      writeFile(SD, "/data.txt", "DATALAR \r\n");
+    }
+    else {
+      Serial.println("File already exists");  
+    }
+    file.close();
   }
-  else {
-    Serial.println("File already exists");  
-  }
-  file.close();
+  
   
   
   // Now set up two tasks to run independently.
@@ -388,7 +403,7 @@ void TaskRTC(void *pvParameters)
     if (rtc_find_state && rtc_running_state)
     {
       DateTime now = RTC.now();
-      p3_gondermeSaati = String(now.day()) + "," + String(now.month()) + "," + String(now.year()) + ";" + String(now.hour()) + "," + String(now.minute()) + "," + String(now.second());
+      p3_gondermeSaati = String(now.day()) + ":" + String(now.month()) + ":" + String(now.year()) + ";" + String(now.hour()) + ":" + String(now.minute()) + ":" + String(now.second());
       Serial.println("RTC--> " + p3_gondermeSaati);
     }
     else
@@ -407,7 +422,7 @@ void TaskBMP280(void *pvParameters)
   for (;;)
   {
     p10_sicaklik = String(BMP280.readTemperature());
-    p4_basinc1 = String(BMP280.readPressure());
+    p4_basinc1 = String(int(BMP280.readPressure()));
     p6_yukseklik1 = String(BMP280.readAltitude(1017.5));
     Serial.println("BMP280--> " + p4_basinc1 + "," + p10_sicaklik + "," + p6_yukseklik1);
     vTaskDelay(800);  
@@ -425,6 +440,14 @@ void TaskLoRa(void *pvParameters)
         ResponseStructContainer rsc = e32ttl.receiveMessage(sizeof(Signal));
         data = *(Signal*) rsc.data;
         rsc.close();
+        if ( String(data.tas_pressure) == "nan")
+        {
+          data.tas_pressure = 0;
+        }
+        if ( String(data.tas_altitude) == "nan")
+        {
+          data.tas_altitude = 0;
+        }
         p5_basinc2 = data.tas_pressure;
         p7_yukseklik2 = data.tas_altitude;
         p13_gps2Latitude = data.tas_latitude;
@@ -517,9 +540,9 @@ void TaskRaspberryPiUART(void *pvParameters)
         Raspi.yaw = atof(StrTokIndx);    // last integer
         
         p9_inisHizi = Raspi.hiz;
-        p12_gps1Latitude = Raspi.enlem;
+        p12_gps1Latitude = String(Raspi.enlem);
         p14_gps1Altitude = Raspi.yukseklik;
-        p16_gps1Longtitude = Raspi.boylam;
+        p16_gps1Longtitude = String(Raspi.boylam);
         p19_pitch = Raspi.pitch;
         p20_roll = Raspi.roll;
         p21_yaw = Raspi.yaw;   
@@ -555,15 +578,16 @@ void TaskKomutReceive(void *pvParameters)
     else if (komut_durumu[0] == '1')
     {
       servolar_acik_mi = true;
-    }
-
-    if (komut_durumu[1] == '0')  // servo komut durumu
-    {
-      manuel_tahrik_aktif = false;
-    }
-    else if (komut_durumu[1] == '1')
+    } 
+    else if (komut_durumu[0] == '2')
     {
       manuel_tahrik_aktif = true;
+      komut_durumu[0] = '9';
+    } 
+
+    else if (komut_durumu[0] == '3')
+    {
+     // servolar_acik_mi = true;
     }
     
     Serial.print("Komut Durumu: ");
@@ -661,6 +685,8 @@ void TaskTelemetryCommunication(void *pvParameters)
         // Telemetri paketi hazirlama
         char udp_payload[250];
        // String datalar = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,258,40.806298,29.355541,2564,1,10,20,5,5,EVET";        main_payload.toCharArray(udp_payload, 250);
+        
+        //main_payload = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,2541,40.4609,39.4804,2564,2,90,50,5,5,EVET";
         main_payload.toCharArray(udp_payload, 250);
         int sizePayload = 0;
         for (int i=0; udp_payload[i] != '\0'; i++) // olusan telemetri dizisinin boyutunu hesaplar
@@ -685,7 +711,7 @@ void TaskTelemetryCommunication(void *pvParameters)
       {
         Serial.println("Wifi is NOT Alive");
       }
-      vTaskDelay(800);  
+      vTaskDelay(1000);  
   }
 }
 
@@ -706,17 +732,29 @@ void TaskTelemeryLoggerSdCard(void *pvParameters)
 
   for (;;)
   {
+    p8_irtifaFarki = "10";
+    p11_pilGerilimi = "8";
+    p18_uyduStatusu = "1";
+
     main_payload = p1_takimNo + "," + p2_paketNumarasi
     + "," + p3_gondermeSaati + "," + p4_basinc1 + "," + p5_basinc2
     + "," + p6_yukseklik1 + "," + p7_yukseklik2 + "," + p8_irtifaFarki
     + "," + p9_inisHizi + "," + p10_sicaklik + "," + p11_pilGerilimi
-    + "," + p12_gps1Latitude + "," + p13_gps2Latitude
-    + "," + p14_gps1Altitude + "," + p15_gps2Altitude
-    + "," + p16_gps1Longtitude + "," + p17_gps2Longtitude
+    + "," + p12_gps1Latitude + "," + p16_gps1Longtitude
+    + "," + p14_gps1Altitude + "," + p13_gps2Latitude
+    + "," + p17_gps2Longtitude + "," + p15_gps2Altitude
     + "," + p18_uyduStatusu + "," + p19_pitch + "," + p20_roll
     + "," + p21_yaw + "," + p22_donusSayisi + "," + p23_videoAktarimBilgisi + "\r\n";
-    
-    appendFile(SD, "/data.txt", main_payload.c_str());
+
+    if (is_sd_card_initialize == true)
+    {
+      appendFile(SD, "/data.txt", main_payload.c_str());
+      Serial.println("Success SD Card Telemetry Write");
+    }
+    else
+    {
+      Serial.println("Failed SD Card Telemetry Write");
+    }
         
     Serial.print("main_payload---> ");
     Serial.println(main_payload);
