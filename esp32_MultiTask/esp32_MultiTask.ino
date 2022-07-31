@@ -1,7 +1,7 @@
 /*          TASK DURUMLARI
  *  Telemetri gonderimi       +
  *  Manuel Tahrik             +
- *  Dosya aktarımı            -
+ *  Dosya aktarımı            ?
  *  Manuel Ayrilma            +
  *  Analog Pil okuma          -
  *  RTC okuma                 +
@@ -86,7 +86,7 @@
 WiFiUDP udp;
 #define WIFI_NETWORK "SPATIUM"
 #define WIFI_PASSWORD "team.spatium"
-const char * udpAddress = "192.168.";
+const char * udpAddress = "192.168.31.239";
 const int udpPort = 52000;
 char gelen_komut[5]; // 4 bitlik komut arrayi 0000 ( manuel Servo - motor tahrik - bos - bos )
 char komut_durumu[5];
@@ -113,6 +113,7 @@ typedef struct
     double pitch = 0;
     double roll = 0;
     double yaw = 0;
+    double dosya_aktarimi = 0;
 }Typedef_RasPiData;
 Typedef_RasPiData Raspi;
 
@@ -155,6 +156,11 @@ Servo esc2;
 Servo esc3;
 bool manuel_tahrik_aktif = false;
 
+float vin=0.0;   //battery voltage
+float vout=0.0;    //A0 pin reading voltage
+float r1=11880.0;    //r1 value
+float r2=10000.0;      //r2 value
+
 void TaskRTC( void *pvParameters );
 void TaskBMP280( void *pvParameters );
 void TaskLoRa( void *pvParameters );
@@ -163,7 +169,7 @@ void TaskRaspberryPiUART(void *pvParameters);
 void TaskServoControl(void *pvParameters);
 void keepWiFiAlive(void * parameter);
 void TaskTelemetryCommunication(void *pvParameters);
-void TaskFileTransfer(void *pvParameters);
+//void TaskFileTransfer(void *pvParameters);
 void TaskTelemeryLoggerSdCard(void *pvParameters);
 void TaskMotorControl(void *pvParameters);
 void TaskKomutReceive(void *pvParameters); 
@@ -184,9 +190,9 @@ String p2_paketNumarasi = "0";
 String p3_gondermeSaati = ",,,,,";
 String p4_basinc1 = "";
 String p5_basinc2 = "";
-String p6_yukseklik1 = "";
-String p7_yukseklik2 = "";
-String p8_irtifaFarki = "";
+String p6_yukseklik1 = "0";
+String p7_yukseklik2 = "0";
+String p8_irtifaFarki = "0";
 String p9_inisHizi = "";
 String p10_sicaklik = "";
 String p11_pilGerilimi = "";
@@ -213,7 +219,8 @@ void setup() {
 
   servo1.attach(12);
   servo2.attach(13);
-
+  delay(500);
+  
   esc1.attach(servoPin1);
   esc2.attach(servoPin2);
   esc3.attach(servoPin3);
@@ -221,6 +228,7 @@ void setup() {
   
   unsigned status;
   status = BMP280.begin(0x76);
+  delay(500);
   
   e32ttl.begin();
   delay(500);
@@ -236,7 +244,7 @@ void setup() {
   {
     Serial.println("RTC is NOT running!");
   }
-
+  delay(500);
 // Initialize SD card
   SD.begin(SD_CS);  
   if(!SD.begin(SD_CS)) {
@@ -275,6 +283,10 @@ void setup() {
     }
     file.close();
   }
+
+  delay(500);
+  analogReadResolution(12);
+
   
   
   
@@ -361,7 +373,8 @@ void setup() {
     ,  2  // Priority
     ,  NULL 
     ,  ARDUINO_RUNNING_CORE);
-  
+    
+  /*
   xTaskCreatePinnedToCore(
     TaskFileTransfer
     ,  "TaskFileTransfer"
@@ -370,7 +383,8 @@ void setup() {
     ,  2  // Priority
     ,  NULL 
     ,  ARDUINO_RUNNING_CORE);
-
+  */
+  
   xTaskCreatePinnedToCore(
     TaskServoMotorControl
     ,  "TaskServoMotorControl"
@@ -409,7 +423,7 @@ void TaskRTC(void *pvParameters)
     else
     {
       Serial.println("RTC ERROR!");
-      p3_gondermeSaati = ",,;,,";
+      p3_gondermeSaati = "::;::";
     }
     vTaskDelay(800); 
   }
@@ -425,7 +439,7 @@ void TaskBMP280(void *pvParameters)
     p4_basinc1 = String(int(BMP280.readPressure()));
     p6_yukseklik1 = String(BMP280.readAltitude(1017.5));
     Serial.println("BMP280--> " + p4_basinc1 + "," + p10_sicaklik + "," + p6_yukseklik1);
-    vTaskDelay(800);  
+    vTaskDelay(300);  
   }
 }
 
@@ -455,7 +469,7 @@ void TaskLoRa(void *pvParameters)
         p17_gps2Longtitude  = data.tas_longtitude;
         Serial.println("LoRa--> " + p5_basinc2 + "," + p7_yukseklik2 + "," + p13_gps2Latitude + "," + p15_gps2Altitude + "," + p17_gps2Longtitude);
     }
-    vTaskDelay(800);  
+    vTaskDelay(500);  
   }
 }
 
@@ -465,8 +479,28 @@ void TaskBatteryVoltage(void *pvParameters)
 
   for (;;)
   {
-
-    vTaskDelay(800);  
+  float vtoplam= 0.0;
+  int count=0;
+  
+  for(int i=0; i<75; i++)
+    {
+      float analogvalue = analogRead(34);      //reading value from analog pin
+      vout = analogvalue * 2.373 / 4096 ;           //analog value to voltage (it is pin's voltage)
+      vin = (((r1+r2)* vout)/r2);
+      //Serial.println(vout);
+      if(vin != 0.00)
+      {
+        vtoplam = vtoplam + vin;
+        count = count+1 ;
+      }
+      delay(10);
+    }
+    float voltage = 2.42 * (vtoplam/count);
+    Serial.print("Voltage= ");        
+    Serial.print(voltage);
+    Serial.println(" Volts");
+    p11_pilGerilimi = String(voltage);
+    vTaskDelay(500);  
   }
 }
 
@@ -481,7 +515,7 @@ void TaskRaspberryPiUART(void *pvParameters)
     char StartMarker = '<';
     char EndMarker = '>';
     char rc;          // received data
-
+    
     while (SerialPort.available() > 0 && NewData == false)
     {
         rc = SerialPort.read();               // test for received data
@@ -515,7 +549,7 @@ void TaskRaspberryPiUART(void *pvParameters)
     {
         strcpy(TempChars, ReceivedChars); // this temporary copy is necessary to protect the original data
                                           // because strtok() used in parseData() replaces the commas with \0
-        
+       
         char * StrTokIndx;                    // this is used by strtok() as an index
     
         StrTokIndx = strtok(TempChars,",");   // get the first control word
@@ -539,6 +573,8 @@ void TaskRaspberryPiUART(void *pvParameters)
         StrTokIndx = strtok(NULL, ",");
         Raspi.yaw = atof(StrTokIndx);    // last integer
         
+
+        
         p9_inisHizi = Raspi.hiz;
         p12_gps1Latitude = String(Raspi.enlem);
         p14_gps1Altitude = Raspi.yukseklik;
@@ -552,7 +588,7 @@ void TaskRaspberryPiUART(void *pvParameters)
     Serial.print("Raspi--> ");
     Serial.println(ReceivedChars);
     
-    vTaskDelay(800);  
+    vTaskDelay(900);  
   }
 }
 
@@ -587,12 +623,15 @@ void TaskKomutReceive(void *pvParameters)
 
     else if (komut_durumu[0] == '3')
     {
-     // servolar_acik_mi = true;
+      Serial.println("---------------- Dosya Gonderme Komutu Alındı");
+      SerialPort.write("1");
+      komut_durumu[0] = '9';
     }
     
     Serial.print("Komut Durumu: ");
     Serial.println(komut_durumu);
-    vTaskDelay(800);  
+//    SerialPort.write("1");
+    vTaskDelay(500);  
   }
 }
 
@@ -605,15 +644,17 @@ void TaskServoMotorControl(void *pvParameters)
     if (servolar_acik_mi == true)
     {
       servo1.write(0);
-      servo2.write(0);
+      servo2.write(35);
+  //    manuel_tahrik_aktif = false;
     }
   
     else if (servolar_acik_mi == false)
     {
-      servo1.write(90);
-      servo2.write(90);
+      servo1.write(35);
+      servo2.write(0);
+      manuel_tahrik_aktif = false;
     }
-    vTaskDelay(800);  
+    vTaskDelay(600);  
   }
 }
 
@@ -623,12 +664,12 @@ void TaskMotorControl(void *pvParameters)
 
   for (;;)
   {
-    if (manuel_tahrik_aktif == true)
+    if (manuel_tahrik_aktif == true && servolar_acik_mi != false)
     {
-      esc1.writeMicroseconds(1500); // Send signal to ESC.
-      esc2.writeMicroseconds(1500); // Send signal to ESC.
-      esc3.writeMicroseconds(1500); // Send signal to ESC.
-      vTaskDelay(8000);
+      esc1.writeMicroseconds(1250); // Send signal to ESC.
+      esc2.writeMicroseconds(1250); // Send signal to ESC.
+      esc3.writeMicroseconds(1250); // Send signal to ESC.
+      vTaskDelay(2000);
       manuel_tahrik_aktif = false;
       komut_durumu[1] = '0';
     }
@@ -683,10 +724,10 @@ void TaskTelemetryCommunication(void *pvParameters)
         Serial.println("Wifi is Alive");
 
         // Telemetri paketi hazirlama
-        char udp_payload[250];
+        char udp_payload[250]; 
        // String datalar = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,258,40.806298,29.355541,2564,1,10,20,5,5,EVET";        main_payload.toCharArray(udp_payload, 250);
         
-        //main_payload = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,2541,40.4609,39.4804,2564,2,90,50,5,5,EVET";
+   //     main_payload = "2929,1,14:30,5,6,15,20,10,5,28,98,40.806298,29.355541,2541,40.4609,39.4804,2564,2,90,50,5,5,EVET";
         main_payload.toCharArray(udp_payload, 250);
         int sizePayload = 0;
         for (int i=0; udp_payload[i] != '\0'; i++) // olusan telemetri dizisinin boyutunu hesaplar
@@ -715,6 +756,7 @@ void TaskTelemetryCommunication(void *pvParameters)
   }
 }
 
+/*
 void TaskFileTransfer(void *pvParameters) 
 {
   (void) pvParameters;
@@ -725,6 +767,7 @@ void TaskFileTransfer(void *pvParameters)
     vTaskDelay(800);  
   }
 }
+*/
 
 void TaskTelemeryLoggerSdCard(void *pvParameters) 
 {
@@ -732,10 +775,34 @@ void TaskTelemeryLoggerSdCard(void *pvParameters)
 
   for (;;)
   {
-    p8_irtifaFarki = "10";
-    p11_pilGerilimi = "8";
-    p18_uyduStatusu = "1";
+    
+//    p8_irtifaFarki = "10";
+//    p11_pilGerilimi = "8";
+//    p18_uyduStatusu = "1";
+//    p12_gps1Latitude = "42.25";
+//    p16_gps1Longtitude = "29.25";
+//    p14_gps1Altitude = "23";
+//    p19_pitch = "23";
+//    p20_roll = "32";
+//    p21_yaw = "54";
+//    p9_inisHizi = "34";
+//    p6_yukseklik1 = "23";
+//    p10_sicaklik = "54";
+//    p11_pilGerilimi = "7";
 
+    p3_gondermeSaati = String("02:07:2022;10:11:05");
+    
+    p9_inisHizi = String("0.1");
+    
+    
+    float fark = p6_yukseklik1.toInt() - p7_yukseklik2.toInt();
+
+    p8_irtifaFarki = int(fark);
+   
+    p22_donusSayisi = String("1");
+
+    p18_uyduStatusu = String("1");
+    
     main_payload = p1_takimNo + "," + p2_paketNumarasi
     + "," + p3_gondermeSaati + "," + p4_basinc1 + "," + p5_basinc2
     + "," + p6_yukseklik1 + "," + p7_yukseklik2 + "," + p8_irtifaFarki
@@ -746,6 +813,24 @@ void TaskTelemeryLoggerSdCard(void *pvParameters)
     + "," + p18_uyduStatusu + "," + p19_pitch + "," + p20_roll
     + "," + p21_yaw + "," + p22_donusSayisi + "," + p23_videoAktarimBilgisi + "\r\n";
 
+    p4_basinc1 = "";
+    p5_basinc2 = "";
+    p6_yukseklik1 = "";
+    p7_yukseklik2 = "";
+    p8_irtifaFarki = "";
+    p9_inisHizi = "";
+    p10_sicaklik = "";
+    p11_pilGerilimi = "";
+    p12_gps1Latitude = "";
+    p16_gps1Longtitude = "";
+    p14_gps1Altitude = "";
+    p13_gps2Latitude = "";
+    p17_gps2Longtitude = "";
+    p15_gps2Altitude = "";
+    p19_pitch = "";
+    p20_roll = "";
+    p21_yaw = "";
+    
     if (is_sd_card_initialize == true)
     {
       appendFile(SD, "/data.txt", main_payload.c_str());
