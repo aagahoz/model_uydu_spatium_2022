@@ -1,0 +1,8 @@
+Aruco kütüphanesinin import edilebilmesi için python contrib modülünün aşağıdaki versiyonu kurulmalı.
+
+pip uninstall python-opencv
+pip install --upgrade opencv-contrib-python==3.4.2.17
+
+Copter tarafından desteklenen komutlara buradan ulaşılabilir:
+https://ardupilot.org/copter/docs/common-mavlink-mission-command-messages-mav_cmd.html#mav-cmd-nav-takeoff
+
