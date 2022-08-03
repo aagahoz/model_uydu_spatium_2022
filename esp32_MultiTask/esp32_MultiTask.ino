@@ -23,7 +23,6 @@
     Ground      ->   Ground
     SDA         ->   21     
     SCL         ->   22
-
  BMP280 PinOut
     Vcc         ->   5V
     Ground      ->   Ground
@@ -48,7 +47,6 @@
     Ground      ->  Ground
     TX          ->  RX
     RX          ->  TX
-
  LoRa PinOut
     5V          ->  5V
     M0          ->  Ground
@@ -57,7 +55,6 @@
     Ground      ->  Ground
     TX          ->  16
     RX          ->  17
-
  Fırçasız Motor1 PinOut
     Ground      ->   Ground
     PWM Sinyal  ->   25
@@ -86,7 +83,7 @@
 WiFiUDP udp;
 #define WIFI_NETWORK "SPATIUM"
 #define WIFI_PASSWORD "team.spatium"
-const char * udpAddress = "192.168.31.239";
+const char * udpAddress = "192.168.31.239 ";
 const int udpPort = 52000;
 char gelen_komut[5]; // 4 bitlik komut arrayi 0000 ( manuel Servo - motor tahrik - bos - bos )
 char komut_durumu[5];
@@ -183,6 +180,8 @@ bool is_sd_card_mounted = true;
 bool is_sd_card_attached = true;
 bool is_sd_card_initialize = true;
 
+unsigned int paketNumarasiSayici = 0;
+
 bool servolari_ac = true;
 ////////////////////////////////////////
 const String p1_takimNo = "389590";
@@ -210,7 +209,7 @@ String p22_donusSayisi = "00";
 String p23_videoAktarimBilgisi = "HAYIR";
 ////////////////////////////////////////
 String main_payload = "";
-
+float voltage = 7.75;
 void setup() {
   
   Serial.begin(115200);
@@ -437,9 +436,9 @@ void TaskBMP280(void *pvParameters)
   {
     p10_sicaklik = String(BMP280.readTemperature());
     p4_basinc1 = String(int(BMP280.readPressure()));
-    p6_yukseklik1 = String(BMP280.readAltitude(1017.5));
+    p6_yukseklik1 = String(BMP280.readAltitude(1010.08));
     Serial.println("BMP280--> " + p4_basinc1 + "," + p10_sicaklik + "," + p6_yukseklik1);
-    vTaskDelay(300);  
+    vTaskDelay(800);  
   }
 }
 
@@ -495,9 +494,9 @@ void TaskBatteryVoltage(void *pvParameters)
       }
       delay(10);
     }
-    float voltage = 2.42 * (vtoplam/count);
     Serial.print("Voltage= ");        
     Serial.print(voltage);
+    voltage = voltage - 0.002;
     Serial.println(" Volts");
     p11_pilGerilimi = String(voltage);
     vTaskDelay(500);  
@@ -669,7 +668,7 @@ void TaskMotorControl(void *pvParameters)
       esc1.writeMicroseconds(1250); // Send signal to ESC.
       esc2.writeMicroseconds(1250); // Send signal to ESC.
       esc3.writeMicroseconds(1250); // Send signal to ESC.
-      vTaskDelay(2000);
+      vTaskDelay(10000);
       manuel_tahrik_aktif = false;
       komut_durumu[1] = '0';
     }
@@ -760,10 +759,8 @@ void TaskTelemetryCommunication(void *pvParameters)
 void TaskFileTransfer(void *pvParameters) 
 {
   (void) pvParameters;
-
   for (;;)
   {
-
     vTaskDelay(800);  
   }
 }
@@ -790,13 +787,14 @@ void TaskTelemeryLoggerSdCard(void *pvParameters)
 //    p10_sicaklik = "54";
 //    p11_pilGerilimi = "7";
 
-    p3_gondermeSaati = String("02:07:2022;10:11:05");
+//    p3_gondermeSaati = String("02:07:2022;10:11:05");
     
     p9_inisHizi = String("0.1");
     
-    
     float fark = p6_yukseklik1.toInt() - p7_yukseklik2.toInt();
-
+    
+    p2_paketNumarasi = String(paketNumarasiSayici);
+    
     p8_irtifaFarki = int(fark);
    
     p22_donusSayisi = String("1");
@@ -812,24 +810,25 @@ void TaskTelemeryLoggerSdCard(void *pvParameters)
     + "," + p17_gps2Longtitude + "," + p15_gps2Altitude
     + "," + p18_uyduStatusu + "," + p19_pitch + "," + p20_roll
     + "," + p21_yaw + "," + p22_donusSayisi + "," + p23_videoAktarimBilgisi + "\r\n";
-
-    p4_basinc1 = "";
-    p5_basinc2 = "";
-    p6_yukseklik1 = "";
-    p7_yukseklik2 = "";
-    p8_irtifaFarki = "";
-    p9_inisHizi = "";
-    p10_sicaklik = "";
-    p11_pilGerilimi = "";
-    p12_gps1Latitude = "";
-    p16_gps1Longtitude = "";
-    p14_gps1Altitude = "";
-    p13_gps2Latitude = "";
-    p17_gps2Longtitude = "";
-    p15_gps2Altitude = "";
-    p19_pitch = "";
-    p20_roll = "";
-    p21_yaw = "";
+//
+    paketNumarasiSayici = paketNumarasiSayici + 2;
+//    p4_basinc1 = "";
+//    p5_basinc2 = "";
+//    p6_yukseklik1 = "";
+//    p7_yukseklik2 = "";
+//    p8_irtifaFarki = "";
+//    p9_inisHizi = "";
+//    p10_sicaklik = "";
+//    p11_pilGerilimi = "";
+//    p12_gps1Latitude = "";
+//    p16_gps1Longtitude = "";
+//    p14_gps1Altitude = "";
+//    p13_gps2Latitude = "";
+//    p17_gps2Longtitude = "";
+//    p15_gps2Altitude = "";
+//    p19_pitch = "";
+//    p20_roll = "";
+//    p21_yaw = "";
     
     if (is_sd_card_initialize == true)
     {
